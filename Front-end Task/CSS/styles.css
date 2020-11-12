@@ -1,0 +1,60 @@
+*{
+    font-family: 'Open Sans',Tahoma,Arial,Serif,"Times New Roman";
+
+}
+#parent{
+    width: 60%;
+    margin:0% 20%;
+}
+#header{
+    color:black;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:normal;
+    letter-spacing: 5px;
+}
+#center{
+    text-align:center;
+    font-style:italic;
+    color: gray;
+}
+#container{
+    display: flex;
+    height: 250px;
+    padding: 5px;
+    margin-top: 30px;
+}
+#right{
+    float: right;
+    width: 60%;
+    
+
+}
+#left{
+    width: 40%;
+    padding: 10px;
+    
+}
+.data{
+    display: inline;
+    margin: 10px;
+    line-height: 30px;
+}
+.input{
+    margin: 5px;
+    margin-left: 40px;
+    height: 35px;
+}
+#message{
+    width: 345px;
+}
+button{
+    margin-left: 315px;
+    height: 35px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+#email{
+    margin-left: 10px;
+}
